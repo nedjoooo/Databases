@@ -1,0 +1,5 @@
+02. What are the main functions performed by a RDBMS?
+- Creatin, altering and deleting tables and relationships bewtween them
+- Adding, changing, deleting, searching and retrieving data stored in the tables
+- Transaction management
+- Support for the SQL language

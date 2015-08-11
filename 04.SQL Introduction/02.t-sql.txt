@@ -1,0 +1,4 @@
+	What is Transact-SQL (T-SQL)?
+
+	T-SQL (Transact-SQL) is a set of programming extensions that add several features to the Structured Query Language (SQL) including transaction control,
+exception and error handling, row processing, and declared variables.

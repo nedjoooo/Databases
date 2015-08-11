@@ -1,0 +1,10 @@
+10 - What's the main purpose of the SQL language?
+  SQL stands for Structured Query Language. It is a standardized  declarative language used for 
+manipulation of relational databases. The SQL language supports creating, altering and deleting tables
+and other database objects. It consist of:
+- DDL - Data Definition Language - CREATE, ALTER and DROP commands
+- DML - Data Manipulation Language - SELECT, INSERT, UPDATE, DELETE
+An example for ad SQL query: 
+SELECT Persons.Name 
+FROM Persons	
+WHERE Persons.Age >= 20 

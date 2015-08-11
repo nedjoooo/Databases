@@ -1,0 +1,6 @@
+04. Explain the differences between a primary and a foreign key.
+ The primary key is a special column in the table that uniquely identifies its row and it is 
+ usually but not necessary a number. Thus two records in a table are different if and only their 
+ primary keys are different. A primary key can also be composite, meaning it's composed of several 
+ columns. The foreign key on the other hand is an identifier of a record located in another table 
+ and usually it is the record's own primary key in it's table.

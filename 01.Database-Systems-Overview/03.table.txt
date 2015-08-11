@@ -1,0 +1,5 @@
+03. Define what is table in database terms.
+  The table in database is the place where data is stored structured in rows and columns.
+All rows have the same structure and all columns have type(string, integer, data, image ) depending
+on the data stored in it. The ordered sequence of column specifications is called table schema.
+The logical connection between different elements in a different tables is called relationship.

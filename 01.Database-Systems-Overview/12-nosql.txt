@@ -1,0 +1,8 @@
+12 - What is a NoSQL database?
+   NoSQL or not only SQL is a non-relational database where data is stored as a document in a single entity
+ with no strictly defined structure.The non-relational data model can be:
+ Document model - used in MongoDB 
+ Key-value model - used in Redis
+ Wide-Column model - used in Cassandra 
+ Object-model - used in Cashe
+   

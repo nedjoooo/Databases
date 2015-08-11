@@ -1,0 +1,19 @@
+05. Explain the different kinds of relationships between tables in relational databases
+  The different types of relationships between tables is called multiplicity.By using relationships we avoid
+repeating data in the database.There are three main kinds of relationships(multiplicity)
+- one-to-many - a single record in the first table has multiple corresponding records in the second table. Foe 
+example one country has many towns in it
+- many-to-many - records in the first table have many corresponding records in the second table and vice versa.This
+relationship is implemented through an additional table which usually holds the related tales' primary keys as columns.
+For example one student can be visiting many courses and vice versa one course can be visited by many students.
+- one-to-one - a single record in the first table corresponds to a single record in the second table.This
+multiplicity is usually used to model inheritance between tables.For example a (base class) table Persons can have
+corresponding(inherited) table Professors which primary keys are at the same time foreign and primary keys for 
+Persons, meaning that a certain person can be a professor only once.And a second table Students(also inheriting 
+Persons) with primary keys corresponding to the Persons' table records primary keys, meaning a single person can 
+be a student only once.
+Hierarchical relationships can be represented with self relationships. The primary/foreign key point to a record 
+in the same table.For example representing the hierarchy of a file system holding folders and subfolders. If root 
+has id: 1 and it has folder with id:2 in itself and folder has picture with id:3 within, we could represent the
+self-relations with a column of foreign keys representing the parent ids(primary keys). Thus folder has foreign key 
+1 pointing to root and picture has foreign key 2 pointing to folder.

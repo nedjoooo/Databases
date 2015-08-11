@@ -1,0 +1,6 @@
+11 - What are transactions used for?
+   Transactions are a sequence of database operations executed as a single unit.Either all operations in
+ the transaction are executed or if one fails the whole transaction is cancelled.Transactions guarantee the
+ consistency and integrity of the database. All changed in the transaction are temporary.Changes become 
+ final when a COMMIT is executed.At any given time if the transaction fails all made changes can be undone
+ by executing the ROWBACK.Transactions are a guarantee for successful bank transfers.

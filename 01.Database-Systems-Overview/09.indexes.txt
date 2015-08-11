@@ -1,0 +1,8 @@
+09 - Point out the pros and cons of using indexes in a database.
+  Indexing is a way of sorting a number of records on multiple fields.Creating an index on a filed in a table
+creates another data structure which holds the field value and a pointer to the record it relates to. The 
+index structure is the sorted allowing binary search thus making a search for a record in a database 
+significantly faster. The downside is that indexing require more space and when performing operation 
+different from search such as insert, update or delete the performance is slowed because indexing requires 
+tow writing operations - one in the table data and one in the index data. So indexing should be used only
+on large scales of data for searching operations and not for insert, update or delete. 

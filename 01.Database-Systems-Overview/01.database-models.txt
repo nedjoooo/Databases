@@ -1,0 +1,12 @@
+01. What database models do you know?
+  A database model is a data model that determines the logical structure of a database 
+and fundamentally in what manner data cab be stored, organized and manipulated.
+Some of the most common logical database models include:
+- Hierarchical model - records are linked in a tree-like structures:
+- Relational model
+- Object model
+- Document model
+Document-oriented databases are one of the main categories of the so called NoSQL databases, or 
+simply said opposed to the relational model.The central concept in this model is that Documents contain 
+vast amount of data which can usefully be made available. Most such DB systems accept documents
+in a variety of form(XML/JSON) and encapsulate them in a standardized internal format.

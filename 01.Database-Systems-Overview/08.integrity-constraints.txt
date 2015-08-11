@@ -1,0 +1,3 @@
+	08.	What are database integrity constraints and when are they used?
+	Data integrity refers to maintaining and assuring the accuracy and consistency of data over its entire life-cycle,
+	[1] and is a critical aspect to the design, implementation and usage of any system which stores, processes, or retrieves data.

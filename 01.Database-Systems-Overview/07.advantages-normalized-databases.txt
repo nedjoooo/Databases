@@ -1,0 +1,3 @@
+	07.	What are the advantages of normalized databases
+	The main advantage of normalisation is that it helps to reduce redundancy.
+	However too much of normalisation is also not preferred as it creates too many tables leading too more nos fo joins making the query even more complex.
